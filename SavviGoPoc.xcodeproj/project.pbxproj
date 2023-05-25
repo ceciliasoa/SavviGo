@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		D7A91FBB2A2028C700AEB000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FBA2A2028C700AEB000 /* AppDelegate.swift */; };
 		D7A91FBD2A2028C700AEB000 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FBC2A2028C700AEB000 /* SceneDelegate.swift */; };
-		D7A91FBF2A2028C700AEB000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FBE2A2028C700AEB000 /* ViewController.swift */; };
-		D7A91FC22A2028C700AEB000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A91FC02A2028C700AEB000 /* Main.storyboard */; };
 		D7A91FC42A2028C900AEB000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A91FC32A2028C900AEB000 /* Assets.xcassets */; };
-		D7A91FC72A2028C900AEB000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A91FC52A2028C900AEB000 /* LaunchScreen.storyboard */; };
 		D7A91FD22A2028C900AEB000 /* SavviGoPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FD12A2028C900AEB000 /* SavviGoPocTests.swift */; };
 		D7A91FDC2A2028C900AEB000 /* SavviGoPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FDB2A2028C900AEB000 /* SavviGoPocUITests.swift */; };
 		D7A91FDE2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FDD2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift */; };
+		D7A91FEE2A2029F200AEB000 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FED2A2029F200AEB000 /* DashboardModel.swift */; };
+		D7A91FF12A202A1C00AEB000 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FF02A202A1C00AEB000 /* DashboardView.swift */; };
+		D7A91FF52A202A4400AEB000 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FF42A202A4400AEB000 /* DashboardViewController.swift */; };
+		D7A91FFB2A202A9300AEB000 /* ObjectiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FFA2A202A9300AEB000 /* ObjectiveModel.swift */; };
+		D7A91FFD2A202AA900AEB000 /* ObjectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FFC2A202AA900AEB000 /* ObjectiveView.swift */; };
+		D7A91FFF2A202ABE00AEB000 /* ObjectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FFE2A202ABE00AEB000 /* ObjectiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +42,19 @@
 		D7A91FB72A2028C700AEB000 /* SavviGoPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavviGoPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A91FBA2A2028C700AEB000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7A91FBC2A2028C700AEB000 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7A91FBE2A2028C700AEB000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7A91FC12A2028C700AEB000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7A91FC32A2028C900AEB000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D7A91FC62A2028C900AEB000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7A91FC82A2028C900AEB000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7A91FCD2A2028C900AEB000 /* SavviGoPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavviGoPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A91FD12A2028C900AEB000 /* SavviGoPocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavviGoPocTests.swift; sourceTree = "<group>"; };
 		D7A91FD72A2028C900AEB000 /* SavviGoPocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavviGoPocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A91FDB2A2028C900AEB000 /* SavviGoPocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavviGoPocUITests.swift; sourceTree = "<group>"; };
 		D7A91FDD2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavviGoPocUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7A91FED2A2029F200AEB000 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		D7A91FF02A202A1C00AEB000 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		D7A91FF42A202A4400AEB000 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D7A91FFA2A202A9300AEB000 /* ObjectiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveModel.swift; sourceTree = "<group>"; };
+		D7A91FFC2A202AA900AEB000 /* ObjectiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveView.swift; sourceTree = "<group>"; };
+		D7A91FFE2A202ABE00AEB000 /* ObjectiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,11 @@
 		D7A91FB92A2028C700AEB000 /* SavviGoPoc */ = {
 			isa = PBXGroup;
 			children = (
+				D7A91FEB2A20298F00AEB000 /* Dashboard */,
+				D7A91FEA2A20298100AEB000 /* Objective */,
 				D7A91FBA2A2028C700AEB000 /* AppDelegate.swift */,
 				D7A91FBC2A2028C700AEB000 /* SceneDelegate.swift */,
-				D7A91FBE2A2028C700AEB000 /* ViewController.swift */,
-				D7A91FC02A2028C700AEB000 /* Main.storyboard */,
 				D7A91FC32A2028C900AEB000 /* Assets.xcassets */,
-				D7A91FC52A2028C900AEB000 /* LaunchScreen.storyboard */,
 				D7A91FC82A2028C900AEB000 /* Info.plist */,
 			);
 			path = SavviGoPoc;
@@ -125,6 +130,74 @@
 				D7A91FDD2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift */,
 			);
 			path = SavviGoPocUITests;
+			sourceTree = "<group>";
+		};
+		D7A91FEA2A20298100AEB000 /* Objective */ = {
+			isa = PBXGroup;
+			children = (
+				D7A91FF92A202A7E00AEB000 /* Model */,
+				D7A91FF72A202A6D00AEB000 /* View */,
+				D7A91FF62A202A6400AEB000 /* Controller */,
+			);
+			path = Objective;
+			sourceTree = "<group>";
+		};
+		D7A91FEB2A20298F00AEB000 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D7A91FF22A202A1F00AEB000 /* Controller */,
+				D7A91FEF2A202A0000AEB000 /* View */,
+				D7A91FEC2A2029DD00AEB000 /* Model */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		D7A91FEC2A2029DD00AEB000 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7A91FED2A2029F200AEB000 /* DashboardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7A91FEF2A202A0000AEB000 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7A91FF02A202A1C00AEB000 /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7A91FF22A202A1F00AEB000 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7A91FF42A202A4400AEB000 /* DashboardViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7A91FF62A202A6400AEB000 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7A91FFE2A202ABE00AEB000 /* ObjectiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7A91FF72A202A6D00AEB000 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7A91FFC2A202AA900AEB000 /* ObjectiveView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7A91FF92A202A7E00AEB000 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7A91FFA2A202A9300AEB000 /* ObjectiveModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A91FC72A2028C900AEB000 /* LaunchScreen.storyboard in Resources */,
 				D7A91FC42A2028C900AEB000 /* Assets.xcassets in Resources */,
-				D7A91FC22A2028C700AEB000 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A91FBF2A2028C700AEB000 /* ViewController.swift in Sources */,
+				D7A91FFF2A202ABE00AEB000 /* ObjectiveViewController.swift in Sources */,
+				D7A91FEE2A2029F200AEB000 /* DashboardModel.swift in Sources */,
+				D7A91FF52A202A4400AEB000 /* DashboardViewController.swift in Sources */,
+				D7A91FF12A202A1C00AEB000 /* DashboardView.swift in Sources */,
+				D7A91FFD2A202AA900AEB000 /* ObjectiveView.swift in Sources */,
+				D7A91FFB2A202A9300AEB000 /* ObjectiveModel.swift in Sources */,
 				D7A91FBB2A2028C700AEB000 /* AppDelegate.swift in Sources */,
 				D7A91FBD2A2028C700AEB000 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,25 +371,6 @@
 			targetProxy = D7A91FD82A2028C900AEB000 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D7A91FC02A2028C700AEB000 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7A91FC12A2028C700AEB000 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D7A91FC52A2028C900AEB000 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7A91FC62A2028C900AEB000 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D7A91FDF2A2028C900AEB000 /* Debug */ = {
@@ -444,7 +501,6 @@
 				INFOPLIST_FILE = SavviGoPoc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +528,6 @@
 				INFOPLIST_FILE = SavviGoPoc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
