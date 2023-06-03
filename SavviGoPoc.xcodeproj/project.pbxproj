@@ -17,8 +17,17 @@
 		D7A91FF12A202A1C00AEB000 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FF02A202A1C00AEB000 /* DashboardView.swift */; };
 		D7A91FF52A202A4400AEB000 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FF42A202A4400AEB000 /* DashboardViewController.swift */; };
 		D7A91FFB2A202A9300AEB000 /* ObjectiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FFA2A202A9300AEB000 /* ObjectiveModel.swift */; };
-		D7A91FFD2A202AA900AEB000 /* ObjectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FFC2A202AA900AEB000 /* ObjectiveView.swift */; };
+		D7A91FFD2A202AA900AEB000 /* AddObjectiveNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FFC2A202AA900AEB000 /* AddObjectiveNameView.swift */; };
 		D7A91FFF2A202ABE00AEB000 /* ObjectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FFE2A202ABE00AEB000 /* ObjectiveViewController.swift */; };
+		D7A920032A20362C00AEB000 /* AddObjectiveValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A920022A20362C00AEB000 /* AddObjectiveValueView.swift */; };
+		D7A920052A20364B00AEB000 /* AddObjectiveFrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A920042A20364B00AEB000 /* AddObjectiveFrequencyView.swift */; };
+		D7A920082A2287D600AEB000 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A920072A2287D600AEB000 /* UIFontExtension.swift */; };
+		D7A9200A2A228B8100AEB000 /* ObjectiveBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A920092A228B8100AEB000 /* ObjectiveBaseView.swift */; };
+		D7A9200C2A228DB100AEB000 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7A9200B2A228DB100AEB000 /* Localizable.strings */; };
+		D7A920102A228E9F00AEB000 /* LocalizeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A9200F2A228E9E00AEB000 /* LocalizeString.swift */; };
+		D7B7CE012A26CAB80040A6CA /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7CE002A26CAB80040A6CA /* CurrencyTextField.swift */; };
+		D7B7CE032A26CAEF0040A6CA /* NumberFormatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7CE022A26CAEF0040A6CA /* NumberFormatExtension.swift */; };
+		D7B7CE052A26CB9F0040A6CA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7CE042A26CB9F0040A6CA /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +62,17 @@
 		D7A91FF02A202A1C00AEB000 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		D7A91FF42A202A4400AEB000 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		D7A91FFA2A202A9300AEB000 /* ObjectiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveModel.swift; sourceTree = "<group>"; };
-		D7A91FFC2A202AA900AEB000 /* ObjectiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveView.swift; sourceTree = "<group>"; };
+		D7A91FFC2A202AA900AEB000 /* AddObjectiveNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddObjectiveNameView.swift; sourceTree = "<group>"; };
 		D7A91FFE2A202ABE00AEB000 /* ObjectiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveViewController.swift; sourceTree = "<group>"; };
+		D7A920022A20362C00AEB000 /* AddObjectiveValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddObjectiveValueView.swift; sourceTree = "<group>"; };
+		D7A920042A20364B00AEB000 /* AddObjectiveFrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddObjectiveFrequencyView.swift; sourceTree = "<group>"; };
+		D7A920072A2287D600AEB000 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		D7A920092A228B8100AEB000 /* ObjectiveBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveBaseView.swift; sourceTree = "<group>"; };
+		D7A9200B2A228DB100AEB000 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D7A9200F2A228E9E00AEB000 /* LocalizeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeString.swift; sourceTree = "<group>"; };
+		D7B7CE002A26CAB80040A6CA /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		D7B7CE022A26CAEF0040A6CA /* NumberFormatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatExtension.swift; sourceTree = "<group>"; };
+		D7B7CE042A26CB9F0040A6CA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +123,14 @@
 		D7A91FB92A2028C700AEB000 /* SavviGoPoc */ = {
 			isa = PBXGroup;
 			children = (
+				D7A920062A2287BA00AEB000 /* Utils */,
 				D7A91FEB2A20298F00AEB000 /* Dashboard */,
 				D7A91FEA2A20298100AEB000 /* Objective */,
 				D7A91FBA2A2028C700AEB000 /* AppDelegate.swift */,
 				D7A91FBC2A2028C700AEB000 /* SceneDelegate.swift */,
 				D7A91FC32A2028C900AEB000 /* Assets.xcassets */,
 				D7A91FC82A2028C900AEB000 /* Info.plist */,
+				D7A9200B2A228DB100AEB000 /* Localizable.strings */,
 			);
 			path = SavviGoPoc;
 			sourceTree = "<group>";
@@ -187,7 +207,11 @@
 		D7A91FF72A202A6D00AEB000 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D7A91FFC2A202AA900AEB000 /* ObjectiveView.swift */,
+				D7A91FFC2A202AA900AEB000 /* AddObjectiveNameView.swift */,
+				D7A920022A20362C00AEB000 /* AddObjectiveValueView.swift */,
+				D7A920042A20364B00AEB000 /* AddObjectiveFrequencyView.swift */,
+				D7A920092A228B8100AEB000 /* ObjectiveBaseView.swift */,
+				D7B7CE002A26CAB80040A6CA /* CurrencyTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +222,17 @@
 				D7A91FFA2A202A9300AEB000 /* ObjectiveModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D7A920062A2287BA00AEB000 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D7A920072A2287D600AEB000 /* UIFontExtension.swift */,
+				D7A9200F2A228E9E00AEB000 /* LocalizeString.swift */,
+				D7B7CE022A26CAEF0040A6CA /* NumberFormatExtension.swift */,
+				D7B7CE042A26CB9F0040A6CA /* StringExtension.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A91FC42A2028C900AEB000 /* Assets.xcassets in Resources */,
+				D7A9200C2A228DB100AEB000 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,13 +366,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A91FFF2A202ABE00AEB000 /* ObjectiveViewController.swift in Sources */,
+				D7A9200A2A228B8100AEB000 /* ObjectiveBaseView.swift in Sources */,
+				D7A920102A228E9F00AEB000 /* LocalizeString.swift in Sources */,
+				D7B7CE012A26CAB80040A6CA /* CurrencyTextField.swift in Sources */,
 				D7A91FEE2A2029F200AEB000 /* DashboardModel.swift in Sources */,
 				D7A91FF52A202A4400AEB000 /* DashboardViewController.swift in Sources */,
 				D7A91FF12A202A1C00AEB000 /* DashboardView.swift in Sources */,
-				D7A91FFD2A202AA900AEB000 /* ObjectiveView.swift in Sources */,
+				D7A91FFD2A202AA900AEB000 /* AddObjectiveNameView.swift in Sources */,
 				D7A91FFB2A202A9300AEB000 /* ObjectiveModel.swift in Sources */,
+				D7A920032A20362C00AEB000 /* AddObjectiveValueView.swift in Sources */,
 				D7A91FBB2A2028C700AEB000 /* AppDelegate.swift in Sources */,
 				D7A91FBD2A2028C700AEB000 /* SceneDelegate.swift in Sources */,
+				D7B7CE032A26CAEF0040A6CA /* NumberFormatExtension.swift in Sources */,
+				D7B7CE052A26CB9F0040A6CA /* StringExtension.swift in Sources */,
+				D7A920082A2287D600AEB000 /* UIFontExtension.swift in Sources */,
+				D7A920052A20364B00AEB000 /* AddObjectiveFrequencyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
