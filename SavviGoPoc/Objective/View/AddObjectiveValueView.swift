@@ -23,8 +23,8 @@ class AddObjectiveValueView: ObjectiveBaseView {
     func setup() {
         setupCurrencyTextField()
         setupSecondTextField()
-        titleLabel.text = "Digite quanto custa seu objetivo"
-        secondTitleLabel.text = "Digite quanto custa seu objetivo"
+        titleLabel.text = LocalizeString.valueObjectiveTitle
+        secondTitleLabel.text = LocalizeString.dateObjectiveTitle
         configureTextFieldPlaceholder(secondTextField, placeholder: "DD/MM/AAAA", color: .orange.withAlphaComponent(0.4))
         secondTextField.isEnabled = false
         startDatePicker()

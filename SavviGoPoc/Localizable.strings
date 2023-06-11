@@ -6,12 +6,18 @@
   
 */
 
-
 "save" = "salvar";
 "cancel" = "Cancelar";
 "next" = "próximo";
 "back" = "voltar";
 "saveMoney" = "Guardar";
 "objective" = "Objetivo";
+"nameObjectiveTitle" = "Dê um nome para o seu objetivo!";
+"nameObjectiveSubtitle" = "O nome pode ser útil para identificar seus objetivos e criar uma motivação para atingi-lo";
+"valueObjectiveTitle" = "Quanto você precisa para o seu objetivo?";
+"dateObjectiveTitle" = "Até quando deseja cumprir o objetivo?";
+"frequencyObjectiveTitle" = "Com que frequência quer guardar?";
+"goalTitle" = "Essa é sua meta";
+"goalSubtitle" = "Caso o valor da meta esteja muito alto, você pode aumentar o prazo do objetivo";
 
 

@@ -1,0 +1,6 @@
+framework module Pods_SavviGoPoc_SavviGoPocTests {
+  umbrella header "Pods-SavviGoPoc-SavviGoPocTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

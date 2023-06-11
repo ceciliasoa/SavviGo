@@ -11,8 +11,11 @@ class AddObjectiveNameView: ObjectiveBaseView {
     
     func setup() {
         setupTextField()
-        titleLabel.text = "Dê um nome para o seu objetivo!"
+        titleLabel.text = LocalizeString.nameObjectiveTitle
         configureTextFieldPlaceholder(mainTextField, placeholder: "nome", color: .orange.withAlphaComponent(0.4))
-        subtitleLabel.text = "O nome pode ser útil para identificar seus objetivos e criar uma motivação para atingi-lo"
+        mainTextField.accessibilityLabel = "nameTextField"
+        
+        subtitleLabel.text = LocalizeString.nameObjectiveSubtitle
+        
     }
 }

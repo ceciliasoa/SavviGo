@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28416A2CB8054477E20F4904 /* Pods_SavviGoPoc_SavviGoPocKIFTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3849417CDD7F6F21FF9656 /* Pods_SavviGoPoc_SavviGoPocKIFTests.framework */; };
+		D72A0B602A300BE500B1A58C /* ObjectiveFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A0B5F2A300BE500B1A58C /* ObjectiveFlowTests.swift */; };
+		D72A0B672A300C2000B1A58C /* KIF+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A0B662A300C2000B1A58C /* KIF+Extension.swift */; };
 		D7A91FBB2A2028C700AEB000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FBA2A2028C700AEB000 /* AppDelegate.swift */; };
 		D7A91FBD2A2028C700AEB000 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FBC2A2028C700AEB000 /* SceneDelegate.swift */; };
 		D7A91FC42A2028C900AEB000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A91FC32A2028C900AEB000 /* Assets.xcassets */; };
-		D7A91FD22A2028C900AEB000 /* SavviGoPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FD12A2028C900AEB000 /* SavviGoPocTests.swift */; };
-		D7A91FDC2A2028C900AEB000 /* SavviGoPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FDB2A2028C900AEB000 /* SavviGoPocUITests.swift */; };
-		D7A91FDE2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FDD2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift */; };
 		D7A91FEE2A2029F200AEB000 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FED2A2029F200AEB000 /* DashboardModel.swift */; };
 		D7A91FF12A202A1C00AEB000 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FF02A202A1C00AEB000 /* DashboardView.swift */; };
 		D7A91FF52A202A4400AEB000 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A91FF42A202A4400AEB000 /* DashboardViewController.swift */; };
@@ -28,17 +28,11 @@
 		D7B7CE012A26CAB80040A6CA /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7CE002A26CAB80040A6CA /* CurrencyTextField.swift */; };
 		D7B7CE032A26CAEF0040A6CA /* NumberFormatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7CE022A26CAEF0040A6CA /* NumberFormatExtension.swift */; };
 		D7B7CE052A26CB9F0040A6CA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7CE042A26CB9F0040A6CA /* StringExtension.swift */; };
+		DEF2387D82D1DD42DDC1D145 /* Pods_SavviGoPoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B679DB9BC2DF5DF98EDB02B5 /* Pods_SavviGoPoc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D7A91FCE2A2028C900AEB000 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7A91FAF2A2028C700AEB000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7A91FB62A2028C700AEB000;
-			remoteInfo = SavviGoPoc;
-		};
-		D7A91FD82A2028C900AEB000 /* PBXContainerItemProxy */ = {
+		D72A0B612A300BE500B1A58C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D7A91FAF2A2028C700AEB000 /* Project object */;
 			proxyType = 1;
@@ -48,16 +42,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109896CECBE92D750C6E4F43 /* Pods-SavviGoPoc-SavviGoPocKIFTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPoc-SavviGoPocKIFTests.debug.xcconfig"; path = "Target Support Files/Pods-SavviGoPoc-SavviGoPocKIFTests/Pods-SavviGoPoc-SavviGoPocKIFTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13FD5CF7FCC52216A6040894 /* Pods-SavviGoPoc-SavviGoPocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPoc-SavviGoPocTests.release.xcconfig"; path = "Target Support Files/Pods-SavviGoPoc-SavviGoPocTests/Pods-SavviGoPoc-SavviGoPocTests.release.xcconfig"; sourceTree = "<group>"; };
+		20ECD569B0C6E73825002897 /* Pods-SavviGoPoc-SavviGoPocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPoc-SavviGoPocUITests.release.xcconfig"; path = "Target Support Files/Pods-SavviGoPoc-SavviGoPocUITests/Pods-SavviGoPoc-SavviGoPocUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37AD72CF257A2F9F5B30049E /* Pods-SavviGoPoc-SavviGoPocKIFTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPoc-SavviGoPocKIFTests.release.xcconfig"; path = "Target Support Files/Pods-SavviGoPoc-SavviGoPocKIFTests/Pods-SavviGoPoc-SavviGoPocKIFTests.release.xcconfig"; sourceTree = "<group>"; };
+		3885756A8D8D4BC75174DCEE /* Pods-SavviGoPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPoc.debug.xcconfig"; path = "Target Support Files/Pods-SavviGoPoc/Pods-SavviGoPoc.debug.xcconfig"; sourceTree = "<group>"; };
+		62EFFEB1B806236F3B7905A2 /* Pods-SavviGoPocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPocTests.debug.xcconfig"; path = "Target Support Files/Pods-SavviGoPocTests/Pods-SavviGoPocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		688C18FE021234AE1D9B6E5B /* Pods-SavviGoPocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPocTests.release.xcconfig"; path = "Target Support Files/Pods-SavviGoPocTests/Pods-SavviGoPocTests.release.xcconfig"; sourceTree = "<group>"; };
+		73F8CD768B4AE37C14C37DAF /* Pods-SavviGoPoc-SavviGoPocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPoc-SavviGoPocUITests.debug.xcconfig"; path = "Target Support Files/Pods-SavviGoPoc-SavviGoPocUITests/Pods-SavviGoPoc-SavviGoPocUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8CDE89A288185443A6E48EB /* Pods-SavviGoPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPoc.release.xcconfig"; path = "Target Support Files/Pods-SavviGoPoc/Pods-SavviGoPoc.release.xcconfig"; sourceTree = "<group>"; };
+		AA3849417CDD7F6F21FF9656 /* Pods_SavviGoPoc_SavviGoPocKIFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SavviGoPoc_SavviGoPocKIFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B679DB9BC2DF5DF98EDB02B5 /* Pods_SavviGoPoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SavviGoPoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6657A6C649E5F97FD184FB /* Pods_SavviGoPoc_SavviGoPocTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SavviGoPoc_SavviGoPocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55E59DA4ACB59B4BF34E052 /* Pods_SavviGoPoc_SavviGoPocUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SavviGoPoc_SavviGoPocUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72A0B5D2A300BE500B1A58C /* SavviGoPocKIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavviGoPocKIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72A0B5F2A300BE500B1A58C /* ObjectiveFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveFlowTests.swift; sourceTree = "<group>"; };
+		D72A0B662A300C2000B1A58C /* KIF+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KIF+Extension.swift"; sourceTree = "<group>"; };
 		D7A91FB72A2028C700AEB000 /* SavviGoPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavviGoPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A91FBA2A2028C700AEB000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7A91FBC2A2028C700AEB000 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D7A91FC32A2028C900AEB000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7A91FC82A2028C900AEB000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7A91FCD2A2028C900AEB000 /* SavviGoPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavviGoPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A91FD12A2028C900AEB000 /* SavviGoPocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavviGoPocTests.swift; sourceTree = "<group>"; };
-		D7A91FD72A2028C900AEB000 /* SavviGoPocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavviGoPocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A91FDB2A2028C900AEB000 /* SavviGoPocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavviGoPocUITests.swift; sourceTree = "<group>"; };
-		D7A91FDD2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavviGoPocUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D7A91FED2A2029F200AEB000 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
 		D7A91FF02A202A1C00AEB000 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		D7A91FF42A202A4400AEB000 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -73,40 +78,74 @@
 		D7B7CE002A26CAB80040A6CA /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 		D7B7CE022A26CAEF0040A6CA /* NumberFormatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatExtension.swift; sourceTree = "<group>"; };
 		D7B7CE042A26CB9F0040A6CA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		FACDBADDFA5786E81A5F4BA4 /* Pods-SavviGoPoc-SavviGoPocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SavviGoPoc-SavviGoPocTests.debug.xcconfig"; path = "Target Support Files/Pods-SavviGoPoc-SavviGoPocTests/Pods-SavviGoPoc-SavviGoPocTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D72A0B5A2A300BE500B1A58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28416A2CB8054477E20F4904 /* Pods_SavviGoPoc_SavviGoPocKIFTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7A91FB42A2028C700AEB000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7A91FCA2A2028C900AEB000 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7A91FD42A2028C900AEB000 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DEF2387D82D1DD42DDC1D145 /* Pods_SavviGoPoc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22431E04799F34B40BC1C57F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3885756A8D8D4BC75174DCEE /* Pods-SavviGoPoc.debug.xcconfig */,
+				A8CDE89A288185443A6E48EB /* Pods-SavviGoPoc.release.xcconfig */,
+				73F8CD768B4AE37C14C37DAF /* Pods-SavviGoPoc-SavviGoPocUITests.debug.xcconfig */,
+				20ECD569B0C6E73825002897 /* Pods-SavviGoPoc-SavviGoPocUITests.release.xcconfig */,
+				62EFFEB1B806236F3B7905A2 /* Pods-SavviGoPocTests.debug.xcconfig */,
+				688C18FE021234AE1D9B6E5B /* Pods-SavviGoPocTests.release.xcconfig */,
+				FACDBADDFA5786E81A5F4BA4 /* Pods-SavviGoPoc-SavviGoPocTests.debug.xcconfig */,
+				13FD5CF7FCC52216A6040894 /* Pods-SavviGoPoc-SavviGoPocTests.release.xcconfig */,
+				109896CECBE92D750C6E4F43 /* Pods-SavviGoPoc-SavviGoPocKIFTests.debug.xcconfig */,
+				37AD72CF257A2F9F5B30049E /* Pods-SavviGoPoc-SavviGoPocKIFTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A70DDC04F1E046A0DA053708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B679DB9BC2DF5DF98EDB02B5 /* Pods_SavviGoPoc.framework */,
+				D55E59DA4ACB59B4BF34E052 /* Pods_SavviGoPoc_SavviGoPocUITests.framework */,
+				CE6657A6C649E5F97FD184FB /* Pods_SavviGoPoc_SavviGoPocTests.framework */,
+				AA3849417CDD7F6F21FF9656 /* Pods_SavviGoPoc_SavviGoPocKIFTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D72A0B5E2A300BE500B1A58C /* SavviGoPocKIFTests */ = {
+			isa = PBXGroup;
+			children = (
+				D72A0B5F2A300BE500B1A58C /* ObjectiveFlowTests.swift */,
+				D72A0B662A300C2000B1A58C /* KIF+Extension.swift */,
+			);
+			path = SavviGoPocKIFTests;
+			sourceTree = "<group>";
+		};
 		D7A91FAE2A2028C700AEB000 = {
 			isa = PBXGroup;
 			children = (
 				D7A91FB92A2028C700AEB000 /* SavviGoPoc */,
-				D7A91FD02A2028C900AEB000 /* SavviGoPocTests */,
-				D7A91FDA2A2028C900AEB000 /* SavviGoPocUITests */,
+				D72A0B5E2A300BE500B1A58C /* SavviGoPocKIFTests */,
 				D7A91FB82A2028C700AEB000 /* Products */,
+				22431E04799F34B40BC1C57F /* Pods */,
+				A70DDC04F1E046A0DA053708 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,8 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				D7A91FB72A2028C700AEB000 /* SavviGoPoc.app */,
-				D7A91FCD2A2028C900AEB000 /* SavviGoPocTests.xctest */,
-				D7A91FD72A2028C900AEB000 /* SavviGoPocUITests.xctest */,
+				D72A0B5D2A300BE500B1A58C /* SavviGoPocKIFTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,23 +171,6 @@
 				D7A9200B2A228DB100AEB000 /* Localizable.strings */,
 			);
 			path = SavviGoPoc;
-			sourceTree = "<group>";
-		};
-		D7A91FD02A2028C900AEB000 /* SavviGoPocTests */ = {
-			isa = PBXGroup;
-			children = (
-				D7A91FD12A2028C900AEB000 /* SavviGoPocTests.swift */,
-			);
-			path = SavviGoPocTests;
-			sourceTree = "<group>";
-		};
-		D7A91FDA2A2028C900AEB000 /* SavviGoPocUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D7A91FDB2A2028C900AEB000 /* SavviGoPocUITests.swift */,
-				D7A91FDD2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift */,
-			);
-			path = SavviGoPocUITests;
 			sourceTree = "<group>";
 		};
 		D7A91FEA2A20298100AEB000 /* Objective */ = {
@@ -238,10 +259,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D72A0B5C2A300BE500B1A58C /* SavviGoPocKIFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72A0B632A300BE500B1A58C /* Build configuration list for PBXNativeTarget "SavviGoPocKIFTests" */;
+			buildPhases = (
+				4A9CD6F74EB7DD0FE6B2C6BA /* [CP] Check Pods Manifest.lock */,
+				D72A0B592A300BE500B1A58C /* Sources */,
+				D72A0B5A2A300BE500B1A58C /* Frameworks */,
+				D72A0B5B2A300BE500B1A58C /* Resources */,
+				AFEF8D3A35D2A66346A4616F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72A0B622A300BE500B1A58C /* PBXTargetDependency */,
+			);
+			name = SavviGoPocKIFTests;
+			productName = SavviGoPocKIFTests;
+			productReference = D72A0B5D2A300BE500B1A58C /* SavviGoPocKIFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D7A91FB62A2028C700AEB000 /* SavviGoPoc */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7A91FE12A2028C900AEB000 /* Build configuration list for PBXNativeTarget "SavviGoPoc" */;
 			buildPhases = (
+				8DBA462961CBE257D39961B0 /* [CP] Check Pods Manifest.lock */,
 				D7A91FB32A2028C700AEB000 /* Sources */,
 				D7A91FB42A2028C700AEB000 /* Frameworks */,
 				D7A91FB52A2028C700AEB000 /* Resources */,
@@ -255,42 +297,6 @@
 			productReference = D7A91FB72A2028C700AEB000 /* SavviGoPoc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D7A91FCC2A2028C900AEB000 /* SavviGoPocTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7A91FE42A2028C900AEB000 /* Build configuration list for PBXNativeTarget "SavviGoPocTests" */;
-			buildPhases = (
-				D7A91FC92A2028C900AEB000 /* Sources */,
-				D7A91FCA2A2028C900AEB000 /* Frameworks */,
-				D7A91FCB2A2028C900AEB000 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7A91FCF2A2028C900AEB000 /* PBXTargetDependency */,
-			);
-			name = SavviGoPocTests;
-			productName = SavviGoPocTests;
-			productReference = D7A91FCD2A2028C900AEB000 /* SavviGoPocTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D7A91FD62A2028C900AEB000 /* SavviGoPocUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7A91FE72A2028C900AEB000 /* Build configuration list for PBXNativeTarget "SavviGoPocUITests" */;
-			buildPhases = (
-				D7A91FD32A2028C900AEB000 /* Sources */,
-				D7A91FD42A2028C900AEB000 /* Frameworks */,
-				D7A91FD52A2028C900AEB000 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7A91FD92A2028C900AEB000 /* PBXTargetDependency */,
-			);
-			name = SavviGoPocUITests;
-			productName = SavviGoPocUITests;
-			productReference = D7A91FD72A2028C900AEB000 /* SavviGoPocUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -301,16 +307,12 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					D72A0B5C2A300BE500B1A58C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D7A91FB62A2028C700AEB000;
+					};
 					D7A91FB62A2028C700AEB000 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					D7A91FCC2A2028C900AEB000 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = D7A91FB62A2028C700AEB000;
-					};
-					D7A91FD62A2028C900AEB000 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = D7A91FB62A2028C700AEB000;
 					};
 				};
 			};
@@ -328,13 +330,19 @@
 			projectRoot = "";
 			targets = (
 				D7A91FB62A2028C700AEB000 /* SavviGoPoc */,
-				D7A91FCC2A2028C900AEB000 /* SavviGoPocTests */,
-				D7A91FD62A2028C900AEB000 /* SavviGoPocUITests */,
+				D72A0B5C2A300BE500B1A58C /* SavviGoPocKIFTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D72A0B5B2A300BE500B1A58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7A91FB52A2028C700AEB000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,23 +352,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7A91FCB2A2028C900AEB000 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7A91FD52A2028C900AEB000 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A9CD6F74EB7DD0FE6B2C6BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SavviGoPoc-SavviGoPocKIFTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DBA462961CBE257D39961B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SavviGoPoc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFEF8D3A35D2A66346A4616F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SavviGoPoc-SavviGoPocKIFTests/Pods-SavviGoPoc-SavviGoPocKIFTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SavviGoPoc-SavviGoPocKIFTests/Pods-SavviGoPoc-SavviGoPocKIFTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SavviGoPoc-SavviGoPocKIFTests/Pods-SavviGoPoc-SavviGoPocKIFTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		D72A0B592A300BE500B1A58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72A0B672A300C2000B1A58C /* KIF+Extension.swift in Sources */,
+				D72A0B602A300BE500B1A58C /* ObjectiveFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7A91FB32A2028C700AEB000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,39 +451,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7A91FC92A2028C900AEB000 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7A91FD22A2028C900AEB000 /* SavviGoPocTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7A91FD32A2028C900AEB000 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7A91FDC2A2028C900AEB000 /* SavviGoPocUITests.swift in Sources */,
-				D7A91FDE2A2028C900AEB000 /* SavviGoPocUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D7A91FCF2A2028C900AEB000 /* PBXTargetDependency */ = {
+		D72A0B622A300BE500B1A58C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D7A91FB62A2028C700AEB000 /* SavviGoPoc */;
-			targetProxy = D7A91FCE2A2028C900AEB000 /* PBXContainerItemProxy */;
-		};
-		D7A91FD92A2028C900AEB000 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D7A91FB62A2028C700AEB000 /* SavviGoPoc */;
-			targetProxy = D7A91FD82A2028C900AEB000 /* PBXContainerItemProxy */;
+			targetProxy = D72A0B612A300BE500B1A58C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D72A0B642A300BE500B1A58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109896CECBE92D750C6E4F43 /* Pods-SavviGoPoc-SavviGoPocKIFTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RLK97DFHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceciliasoares.SavviGoPocKIFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavviGoPoc.app/SavviGoPoc";
+			};
+			name = Debug;
+		};
+		D72A0B652A300BE500B1A58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AD72CF257A2F9F5B30049E /* Pods-SavviGoPoc-SavviGoPocKIFTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RLK97DFHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceciliasoares.SavviGoPocKIFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavviGoPoc.app/SavviGoPoc";
+			};
+			name = Release;
+		};
 		D7A91FDF2A2028C900AEB000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -535,6 +618,7 @@
 		};
 		D7A91FE22A2028C900AEB000 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3885756A8D8D4BC75174DCEE /* Pods-SavviGoPoc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -545,6 +629,7 @@
 				INFOPLIST_FILE = SavviGoPoc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -556,12 +641,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D7A91FE32A2028C900AEB000 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CDE89A288185443A6E48EB /* Pods-SavviGoPoc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -572,6 +658,7 @@
 				INFOPLIST_FILE = SavviGoPoc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,89 +670,22 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D7A91FE52A2028C900AEB000 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6RLK97DFHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ceciliasoares.SavviGoPocTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavviGoPoc.app/SavviGoPoc";
-			};
-			name = Debug;
-		};
-		D7A91FE62A2028C900AEB000 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6RLK97DFHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ceciliasoares.SavviGoPocTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavviGoPoc.app/SavviGoPoc";
-			};
-			name = Release;
-		};
-		D7A91FE82A2028C900AEB000 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6RLK97DFHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ceciliasoares.SavviGoPocUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SavviGoPoc;
-			};
-			name = Debug;
-		};
-		D7A91FE92A2028C900AEB000 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6RLK97DFHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ceciliasoares.SavviGoPocUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SavviGoPoc;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D72A0B632A300BE500B1A58C /* Build configuration list for PBXNativeTarget "SavviGoPocKIFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72A0B642A300BE500B1A58C /* Debug */,
+				D72A0B652A300BE500B1A58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D7A91FB22A2028C700AEB000 /* Build configuration list for PBXProject "SavviGoPoc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -680,24 +700,6 @@
 			buildConfigurations = (
 				D7A91FE22A2028C900AEB000 /* Debug */,
 				D7A91FE32A2028C900AEB000 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7A91FE42A2028C900AEB000 /* Build configuration list for PBXNativeTarget "SavviGoPocTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7A91FE52A2028C900AEB000 /* Debug */,
-				D7A91FE62A2028C900AEB000 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7A91FE72A2028C900AEB000 /* Build configuration list for PBXNativeTarget "SavviGoPocUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7A91FE82A2028C900AEB000 /* Debug */,
-				D7A91FE92A2028C900AEB000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

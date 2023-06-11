@@ -32,7 +32,7 @@ class AddObjectiveFrequencyView: ObjectiveBaseView {
     }
     
     private func setupFrequency() {
-        titleLabel.text = "Com que frequência quer guardar?"
+        titleLabel.text = LocalizeString.frequencyObjectiveTitle
         frequencyPicker = UIPickerView()
         mainTextField.inputView = frequencyPicker
         mainTextField.text = "Diariamente"
@@ -40,8 +40,8 @@ class AddObjectiveFrequencyView: ObjectiveBaseView {
     }
     
     private func setupGoal() {
-        secondTitleLabel.text = "Essa é sua meta diária"
+        secondTitleLabel.text = LocalizeString.goalTitle
         secondTextField.isEnabled = false
-        secondSubtitleLabel.text = "Caso o valor da meta esteja muito alto, você pode aumentar o prazo do objetivo"
+        secondSubtitleLabel.text = LocalizeString.goalSubtitle
     }
 }

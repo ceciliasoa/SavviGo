@@ -15,4 +15,11 @@ struct LocalizeString {
     static let back = NSLocalizedString("back", comment: "")
     static let saveMoney =  NSLocalizedString("saveMoney", comment: "")
     static let objective = NSLocalizedString("objective", comment: "")
+    static let nameObjectiveTitle = NSLocalizedString("nameObjectiveTitle", comment: "")
+    static let nameObjectiveSubtitle = NSLocalizedString("nameObjectiveSubtitle", comment: "")
+    static let valueObjectiveTitle =  NSLocalizedString("valueObjectiveTitle", comment: "")
+    static let dateObjectiveTitle =  NSLocalizedString("dateObjectiveTitle", comment: "")
+    static let frequencyObjectiveTitle = NSLocalizedString("frequencyObjectiveTitle", comment: "")
+    static let goalTitle = NSLocalizedString("goalTitle", comment: "")
+    static let goalSubtitle = NSLocalizedString("goalSubtitle", comment: "")
 }
