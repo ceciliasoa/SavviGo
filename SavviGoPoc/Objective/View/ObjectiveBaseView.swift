@@ -99,6 +99,7 @@ class ObjectiveBaseView: UIView {
         secondTextField = CurrencyTextField()
         secondTextField.keyboardType = .numberPad
         secondTextField.font = UIFont.rounded(size: 42, weight: .medium)
+        secondTextField.textColor = .black
         secondTextField.text = "R$ 00,00"
         secondTextField.translatesAutoresizingMaskIntoConstraints = false
         setupSecondView()

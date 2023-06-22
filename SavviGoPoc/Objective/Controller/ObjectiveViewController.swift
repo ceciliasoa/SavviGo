@@ -7,8 +7,16 @@
 
 import UIKit
 
-class ObjectiveViewController: UIViewController {
+protocol objectiveDelegate: AnyObject {
+    func objectiveData(data: ObjectiveEntity)
+}
 
+class ObjectiveViewController: UIViewController {
+    
+    var goal: Double = 0.0
+    
+    weak var delegate: objectiveDelegate?
+    
     let objectiveNameView = AddObjectiveNameView()
     let objectiveValueView = AddObjectiveValueView()
     let objectiveFrequencyView = AddObjectiveFrequencyView()
@@ -18,10 +26,6 @@ class ObjectiveViewController: UIViewController {
         super.viewDidLoad()
         configureNavBar()
         setupViews()
-        
-        objectiveFrequencyView.frequencyPicker?.delegate = self
-        objectiveFrequencyView.frequencyPicker?.dataSource = self
-
     }
     
     func setupViews() {
@@ -30,6 +34,7 @@ class ObjectiveViewController: UIViewController {
         objectiveFrequencyView.setup()
         view.backgroundColor = .white
         view = objectiveNameView
+        textFieldDelegates()
     }
     
     // MARK: Nav Bar
@@ -76,7 +81,7 @@ class ObjectiveViewController: UIViewController {
             navigationItem.rightBarButtonItem?.tintColor = .orange
             view = objectiveFrequencyView
             objectiveFrequencyView.mainTextField.becomeFirstResponder()
- 
+            
         case 2:
             save()
             
@@ -86,10 +91,26 @@ class ObjectiveViewController: UIViewController {
     }
     
     func save() {
+        guard let name = objectiveNameView.mainTextField.text,
+              let frequency = objectiveFrequencyView.frequency?.rawValue,
+              let valueCurrency = objectiveValueView.mainTextField as? CurrencyTextField else {return}
+        let objective = ObjectiveEntity(name: name,
+                             initialDate: Date(),
+                             finalDate: objectiveValueView.datePicker.date,
+                             completeDays: 0,
+                             goalValue: goal,
+                             goalStatus: false,
+                             frequency: frequency,
+                             isCurrent: true,
+                             savedValue: 0.0,
+                             value: valueCurrency.getDoubleValue() ?? 0.0)
+        
+        delegate?.objectiveData(data: objective)
         dismiss(animated: true, completion: nil)
     }
     
-    func screenSelect() -> Int {
+    
+    private func screenSelect() -> Int {
         if view == objectiveNameView {
             return 0
         } else if view == objectiveValueView {
@@ -98,7 +119,43 @@ class ObjectiveViewController: UIViewController {
             return 2
         }
     }
+    
+    private func textFieldDelegates() {
+        objectiveFrequencyView.frequencyPicker?.delegate = self
+        objectiveFrequencyView.frequencyPicker?.dataSource = self
+        objectiveNameView.mainTextField.delegate = self
+        objectiveValueView.mainTextField.delegate = self
+        objectiveValueView.secondTextField.delegate  = self
+        objectiveFrequencyView.mainTextField.delegate  = self
+        objectiveFrequencyView.secondTextField.delegate = self
+        
+        objectiveFrequencyView.mainTextField.tag = 3
+    }
+    
+    private func calculatorObjective() {
+        guard let currency = objectiveValueView.mainTextField as? CurrencyTextField,
+              let frequency = objectiveFrequencyView.frequency
+        else { return }
+        
+        goal = ObjectiveEntity.calulateValue(deadline: objectiveValueView.datePicker.date,
+                                             objective: currency.getDoubleValue() ?? 0.0,
+                                             frequency: frequency,
+                                             goalStatus: false)
+        objectiveFrequencyView.secondTextField.text = goal.getCurrencyFormat()
+    }
+}
 
+extension ObjectiveViewController: UITextFieldDelegate {
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        calculatorObjective()
+    }
+    
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        if textField.tag == 3 {
+            calculatorObjective()
+        }
+    }
 }
 
 extension ObjectiveViewController: UIPickerViewDataSource, UIPickerViewDelegate {
@@ -117,7 +174,7 @@ extension ObjectiveViewController: UIPickerViewDataSource, UIPickerViewDelegate 
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         objectiveFrequencyView.frequency = objectiveFrequencyView.dataFrequencyPicker[row]
         objectiveFrequencyView.mainTextField.text = String(objectiveFrequencyView.dataFrequencyPicker[row].rawValue)
-        
+        calculatorObjective()
     }
 
 }
